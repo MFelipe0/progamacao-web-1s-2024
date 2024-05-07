@@ -1,0 +1,22 @@
+def verificarNumeroPrimo(n);
+    # Verifica se o número é menor ou igual a 1
+    if n <= 1;
+        return False;
+    # Verifica se o número é divisível por algum número além de 1 e ele mesmo
+    for i in range(2, int(n**0.5) + 1);
+        if n % i == 0;
+            return False;
+    # Se não foi possível encontrar nenhum divisor além de 1 e ele mesmo, então é primo
+    return True;
+
+# Testando a função com os casos de teste fornecidos
+print(verificarNumeroPrimo(0));       # False
+print(verificarNumeroPrimo(1));       # False
+print(verificarNumeroPrimo(2));       # True
+print(verificarNumeroPrimo(3));       # True
+print(verificarNumeroPrimo(7));       # True
+print(verificarNumeroPrimo(83));      # True
+print(verificarNumeroPrimo(100));     # False
+print(verificarNumeroPrimo(991));     # True
+print(verificarNumeroPrimo(104729));  # True
+print(verificarNumeroPrimo(14348907)); # False
