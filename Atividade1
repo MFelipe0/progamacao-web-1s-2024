@@ -1,0 +1,25 @@
+num_A1 = 10;
+num_B1 = 5;
+
+num_A2 = 8;
+num_B2 = 4;
+
+soma_resultado = num_A1 + num_B1;
+subtracao_resultado = num_A1 - num_B1;
+multiplicacao_resultado = num_A1 * num_B1;
+divisao_resultado = num_A1 / num_B1;
+
+print(f"Resultado da soma entre {num_A1} e {num_B1}: {soma_resultado}");
+print(f"Resultado da subtração entre {num_A1} e {num_B1}: {subtracao_resultado}");
+print(f"Resultado da multiplicação entre {num_A1} e {num_B1}: {multiplicacao_resultado}");
+print(f"Resultado da divisão entre {num_A1} e {num_B1}: {divisao_resultado}");
+
+soma_resultado = num_A2 + num_B2;
+subtracao_resultado = num_A2 - num_B2;
+multiplicacao_resultado = num_A2 * num_B2;
+divisao_resultado = num_A2 / num_B2;
+
+print(f"Resultado da soma entre {num_A2} e {num_B2}: {soma_resultado}");
+print(f"Resultado da subtração entre {num_A2} e {num_B2}: {subtracao_resultado}");
+print(f"Resultado da multiplicação entre {num_A2} e {num_B2}: {multiplicacao_resultado}");
+print(f"Resultado da divisão entre {num_A2} e {num_B2}: {divisao_resultado}");
